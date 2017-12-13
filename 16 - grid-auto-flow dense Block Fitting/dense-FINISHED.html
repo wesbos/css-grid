@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Line Names from Grid Areas</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    <div class="item item7">7</div>
+    <div class="item item8">8</div>
+    <div class="item item9">9</div>
+    <div class="item item10">10</div>
+    <div class="item item11">11</div>
+    <div class="item item12">12</div>
+    <div class="item item13">13</div>
+    <div class="item item14">14</div>
+    <div class="item item15">15</div>
+    <div class="item item16">16</div>
+    <div class="item item17">17</div>
+    <div class="item item18">18</div>
+    <div class="item item19">19</div>
+    <div class="item item20">20</div>
+    <div class="item item21">21</div>
+    <div class="item item22">22</div>
+    <div class="item item23">23</div>
+    <div class="item item24">24</div>
+    <div class="item item25">25</div>
+    <div class="item item26">26</div>
+    <div class="item item27">27</div>
+    <div class="item item28">28</div>
+    <div class="item item29">29</div>
+    <div class="item item30">30</div>
+    <div class="item item31">31</div>
+    <div class="item item32">32</div>
+    <div class="item item33">33</div>
+    <div class="item item34">34</div>
+    <div class="item item35">35</div>
+    <div class="item item36">36</div>
+    <div class="item item37">37</div>
+    <div class="item item38">38</div>
+    <div class="item item39">39</div>
+    <div class="item item40">40</div>
+    <div class="item item41">41</div>
+    <div class="item item42">42</div>
+    <div class="item item43">43</div>
+    <div class="item item44">44</div>
+    <div class="item item45">45</div>
+    <div class="item item46">46</div>
+    <div class="item item47">47</div>
+    <div class="item item48">48</div>
+    <div class="item item49">49</div>
+    <div class="item item50">50</div>
+    <div class="item item51">51</div>
+    <div class="item item52">52</div>
+    <div class="item item53">53</div>
+    <div class="item item54">54</div>
+    <div class="item item55">55</div>
+    <div class="item item56">56</div>
+    <div class="item item57">57</div>
+    <div class="item item58">58</div>
+    <div class="item item59">59</div>
+    <div class="item item60">60</div>
+    <div class="item item61">61</div>
+    <div class="item item62">62</div>
+    <div class="item item63">63</div>
+    <div class="item item64">64</div>
+    <div class="item item65">65</div>
+    <div class="item item66">66</div>
+    <div class="item item67">67</div>
+    <div class="item item68">68</div>
+    <div class="item item69">69</div>
+    <div class="item item70">70</div>
+  </div>
+
+  <style>
+    .container {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(10, 1fr);
+      grid-auto-flow: dense;
+    }
+
+    .item:nth-child(6n) {
+      background: cornflowerblue;
+      grid-column: span 6;
+    }
+    .item:nth-child(8n) {
+      background: tomato;
+      grid-column: span 2;
+    }
+    .item:nth-child(9n) {
+      grid-row: span 2;
+    }
+    .item18 {
+      background: greenyellow !important;
+      grid-column-end: -1 !important;
+    }
+
+
+  </style>
+</body>
+
+</html>
