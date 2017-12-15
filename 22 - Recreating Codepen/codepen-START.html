@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>codepen</title>
+  <link rel="stylesheet" href="style-START.css">
+</head>
+
+<body>
+  <div class="codepen">
+    <header class="pen">
+      <div class="pen__details">
+        <h1>Some Amazing Pen Name</h1>
+        <p class="pen__author">A Pen by Wes Bos</p>
+      </div>
+      <button class="button button--dirty">☁️ Save</button>
+      <button class="button">️️☁️ Save As Private</button>
+      <button class="button">⚙ Settings</button>
+      <button class="button">👀 Change View</button>
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/28831/profile/profile-80.jpg?1" alt="Wes Bos" height="44">
+    </header>
+    <section class="code">
+      <div class="editor">
+        <header class="editor__header">
+          <button class="button button--small editor__settings">⚙</button>
+          <h3 class="editor__heading">HTML</h3>
+          <button class="button button--small editor__settings">⌄</button>
+        </header>
+        <div class="editor__code">
+          <div class="editor__gutter">
+            <span class="editor__number">1</span>
+          </div>
+
+          <textarea class="editor__input"><p>Oh Hey There!</p></textarea>
+        </div>
+      </div>
+      <div class="editor">
+        <header class="editor__header">
+          <button class="button button--small editor__settings">⚙</button>
+          <h3 class="editor__heading">CSS</h3>
+          <button class="button button--small editor__settings">⌄</button>
+        </header>
+        <div class="editor__code">
+          <div class="editor__gutter">
+            <span class="editor__number">1</span>
+            <span class="editor__number">2</span>
+            <span class="editor__number">3</span>
+          </div>
+
+          <textarea class="editor__input">.codepen {
+  is: cool;
+}
+          </textarea>
+        </div>
+
+      </div>
+      <div class="editor">
+        <header class="editor__header">
+          <button class="button button--small editor__settings">⚙</button>
+          <h3 class="editor__heading">JS</h3>
+          <button class="button button--small editor__settings">⌄</button>
+        </header>
+        <div class="editor__code">
+          <div class="editor__gutter">
+            <span class="editor__number">1</span>
+          </div>
+          <textarea class="editor__input">const wes = 'coolest';</textarea>
+        </div>
+
+      </div>
+    </section>
+    <section class="preview">
+      <iframe src="https://css-tricks.com" frameborder="0"></iframe>
+    </section>
+    <footer class="settings">
+      <button class="button button--small button--black">Console</button>
+      <button class="button button--small button--black">Assets</button>
+      <button class="button button--small button--black">⌘</button>
+    </footer>
+  </div>
+</body>
+
+</html>
