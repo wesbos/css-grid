@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Self Control</title>
+</head>
+
+<body>
+  <!-- Self Contol on box Axis -->
+
+  <div class="corners">
+    <div class="corner item">1</div>
+    <div class="corner item">TWO</div>
+    <div class="corner item">3</div>
+    <div class="corner item">4</div>
+  </div>
+
+  <style>
+    .corners {
+      display: grid;
+      height: 200px;
+      width: 200px;
+      grid-template: 1fr 1fr / 1fr 1fr;
+      border: 10px solid var(--yellow);
+      align-content: center;
+      align-items: end;
+      justify-content: center;
+      justify-items: end;
+    }
+
+
+    .corner:nth-child(1),
+    .corner:nth-child(2) {
+      align-self: start;
+    }
+
+    .corner:nth-child(1),
+    .corner:nth-child(3) {
+      justify-self: start;
+    }
+  </style>
+</body>
+
+</html>

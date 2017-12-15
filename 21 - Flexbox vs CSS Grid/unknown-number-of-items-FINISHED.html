@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Perfectly Centered</title>
+</head>
+
+<body>
+  <!-- Unknown Amount of Elements -->
+  <script>
+    function addItem() {
+      const unknown = document.querySelector('.unknown');
+      unknown.innerHTML += `<div class="item">${unknown.childElementCount}</div>`;
+    }
+  </script>
+  <button onClick="addItem()">+ Add</button>
+  <div class="unknown">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <style>
+    .unknown {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    }
+  </style>
+</body>
+
+</html>

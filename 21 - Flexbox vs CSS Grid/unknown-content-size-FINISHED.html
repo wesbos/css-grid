@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Perfectly Centered</title>
+</head>
+
+<body>
+
+  <!-- Known Columns, Unknown Content Width -->
+
+  <div class="container known">
+    <div class="item">Short</div>
+    <div class="item">Longerrrrrr</div>
+    <div class="item">
+      <img src="https://source.unsplash.com/300x200" alt="">
+    </div>
+    <div class="item">💩</div>
+  </div>
+
+  <style>
+    .known {
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      justify-content: center;
+      grid-gap: 20px;
+      margin: 100px 0;
+    }
+  </style>
+
+</body>
+
+</html>
