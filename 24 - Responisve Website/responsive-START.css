@@ -1,0 +1,14 @@
+body {
+  font-size: 15px;
+}
+
+button {
+  background: #ffc600;
+  border: 0;
+  padding: 10px 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
