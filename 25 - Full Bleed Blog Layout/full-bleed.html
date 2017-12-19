@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css">
+  <title>Full Bleed</title>
+</head>
+
+<div class="wrapper">
+  <section class="contained section1">
+    <div class="inner">
+      <h2>Section</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="fullbleed section2">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section3">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section4">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="section5 fullbleed">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section6">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="fullbleed section7">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section8">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section9">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicingadipisicingadipisicingadipisicingadipisicingadipisicing adipisicing adipisicing adipisicingadipisicing adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+  <section class="contained section10">
+    <div class="inner">
+      <h2>Section</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae esse aut iure, saepe obcaecati nihil distinctio placeat
+        est, quisquam inventore quis quaerat, officia aperiam optio natus iusto voluptates doloribus totam.</p>
+    </div>
+  </section>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    --maxwidth: 1000px;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: [fullbleed-start] 1fr [contained-start] auto [contained-end] 1fr [fullbleed-end];
+  }
+
+  .contained {
+    grid-column: contained-start / contained-end;
+    background: white;
+  }
+
+  .fullbleed {
+    grid-column: fullbleed-start / fullbleed-end;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .inner {
+    padding: 20px;
+    width: 1000px;
+  }
+  .fullbleed .inner {
+    grid-column: 2;
+  }
+
+  @media (max-width: var(--maxwidth)) {
+    .fullbleed {
+      grid-template-columns: 1fr;
+    }
+    .inner {
+      width: 100%;
+    }
+  }
+
+</style>
+
+<body>
+
+</body>
+
+</html>
