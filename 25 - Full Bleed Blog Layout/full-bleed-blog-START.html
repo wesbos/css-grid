@@ -7,6 +7,11 @@
   <title>Full Bleed</title>
 </head>
 
+
+<!--
+  Thanks To Phillipp Rudloff for the .tip Idea
+  https://codepen.io/kleinfreund/pen/aLQgYy
+ -->
 <article class="post">
   <h2>Chapter Three: The Great American Game</h2>
 
@@ -74,6 +79,8 @@
     <p>Buy the album on
       <a href="https://levithepoet.bandcamp.com/album/correspondence-a-fiction">BandCamp</a>
     </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam quia vel eveniet porro, rem ducimus quam incidunt,
+      dicta laborum quod earum tempore natus placeat neque aspernatur pariatur iusto quos.</p>
   </div>
   <p>I know my sweet seductress, and her name is Depression. I wrote best beneath that demon’s destructive oppression</p>
 
@@ -139,7 +146,6 @@
     text-decoration: underline wavy var(--yellow);
   }
 
-
   h1,
   h2 {
     font-size: 80px;
@@ -161,55 +167,38 @@
   }
 
   .post>figure {
-    margin-right: 0;
-    margin-left: 0;
+    margin: 0;
     grid-column: 1 / -1;
   }
 
-  figure img {
-    width: 100%;
+  figcaption {
+    font-size: 10px;
+  }
+
+  .post>blockquote {
+    grid-column: 1 / -1;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
   }
 
   .tip {
     background: #FAFAFA;
     padding: 10px;
-  }
-
-  .tip img {
-    width: 100%;
-  }
-
-  .tip-right {
-    border-left: 3px solid var(--yellow);
-    grid-column: span 1 / -1;
-    align-self: center;
-  }
-
-  .tip-left {
-    border-right: 3px solid var(--yellow);
-    grid-column: 1 / span 1;
     grid-row: span 5;
     align-self: start;
   }
 
-  .tip p {
-    margin: 0;
+  .tip-left {
+    grid-column: 1 / span 1;
+    text-align: right;
+    border-right: 2px solid var(--yellow);
   }
 
-  .post>blockquote {
-    font-size: 60px;
-    grid-column: 1 / -1;
-    font-style: italic;
-    margin: 0;
-    text-align: center;
-  }
-
-  blockquote p {
-    margin: 0;
-  }
-
-  figcaption {
-    font-size: 10px;
+  .tip-right {
+    grid-column: span 1 / -1;
+    border-left: 2px solid var(--yellow);
   }
 </style>
 
