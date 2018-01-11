@@ -9,7 +9,7 @@ Hey! These are the starter files and finished solutions. Grab the full course ov
 
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 
-* This is brand new so no one has blogged about it yet!
+* [Course Review](https://www.bencodezen.io/blog/review-css-grid-with-wes-bos/) by [@bencodezen](https://www.twitter.com/bencodezen)
 
 ## A note on Pull Requests
 
