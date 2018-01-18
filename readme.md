@@ -26,6 +26,8 @@ Thanks!
 
 ## Live editable examples
 
+I recommend you use the files in the repo, but if you prefer to use JSFiddle instead, here are all the starter files ready to go:
+
 02. [Starter Files and Tooling Setup](https://jsfiddle.net/6qvwur9q/)
 03. [CSS Grid Fundamentals](https://jsfiddle.net/qxxpgg4j/)
 04. [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
