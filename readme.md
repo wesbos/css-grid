@@ -4,6 +4,11 @@
 
 Hey! These are the starter files and finished solutions. Grab the full course over at [CSSGrid.io](https://CSSGrid.io).
 
+## Course FAQ
+
+### Q: I'm getting Browsersync Couldn't open browser (if you are using BrowserSync in a headless environment, you might want to set the open option to false)
+
+This is because some versions of Firefox are "FirefoxDeveloperEdition" and some new downloads are "Firefox Developer Edition". If you had downloaded the browser before the course, just remove the spaces from the package.json command so it says "FirefoxDeveloperEdition"
 
 ## Community CSS Grid Content
 
