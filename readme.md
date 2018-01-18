@@ -21,7 +21,7 @@ Thanks!
 
 ## Live editable examples
 
-02. [Starter Files and Tooling Setup](https://jsfiddle.net/0dqL316d/) (update title)
+02. [Starter Files and Tooling Setup](https://jsfiddle.net/6qvwur9q/)
 03. [CSS Grid Fundamentals](https://jsfiddle.net/qxxpgg4j/)
 04. [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
 05. [CSS Grid Implicit vs Explicit Tracks](https://jsfiddle.net/mon8xdgb/)
