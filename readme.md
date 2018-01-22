@@ -10,6 +10,10 @@ Hey! These are the starter files and finished solutions. Grab the full course ov
 
 This is because some versions of Firefox are "FirefoxDeveloperEdition" and some new downloads are "Firefox Developer Edition". If you had downloaded the browser before the course, just remove the spaces from the package.json command so it says "FirefoxDeveloperEdition"
 
+### Q: I can't see the lines / numbers of Firefox' CSS Grid Inspection Tools
+
+Make sure to turn off both "Use recommended performance settings" & "Use hardware acceleration when available“ within Preferences > Performance
+
 ## Community CSS Grid Content
 
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
