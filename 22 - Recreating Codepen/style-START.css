@@ -28,3 +28,18 @@ h6 {
   font-size: 1.5em;
 }
 
+.codepen {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pen {
+  background: black;
+  color: white;
+  grid-column: 1 / -1;
+}
+
+.pen__author {
+  color: grey;
+}
