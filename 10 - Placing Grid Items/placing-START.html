@@ -18,7 +18,7 @@
     <div class="item item6">6</div>
     <div class="item item7">7</div>
     <div class="item item8">8</div>
-    <div class="item item8">💩</div>
+    <div class="item dookie">💩</div>
     <div class="item item9">9</div>
     <div class="item item10">10</div>
     <div class="item item11">11</div>
@@ -37,7 +37,7 @@
     <div class="item item24">24</div>
     <div class="item item25">25</div>
     <div class="item item26">26</div>
-    <div class="item item27">27</div>
+    <div class="item fred">Fred</div>
     <div class="item item28">28</div>
     <div class="item item29">29</div>
     <div class="item item30">30</div>
@@ -48,6 +48,15 @@
       display: grid;
       grid-gap: 20px;
       grid-template-columns: repeat(5, 1fr);
+    }
+
+    .dookie {
+      grid-column: 1 / span 2;
+      background: var(--badbooty);
+    }
+
+    .fred {
+      grid-column: 1 / -1;
     }
   </style>
 </body>
