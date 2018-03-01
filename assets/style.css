@@ -40,7 +40,7 @@ body {
   min-height: calc(100vh - 100px);
   margin: 50px;
   /* background: white; */
-  background-position: fixed;
+  background-attachment: fixed;
   letter-spacing: -1px;
 }
 
