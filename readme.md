@@ -19,6 +19,7 @@ Make sure to turn off both "Use recommended performance settings" & "Use hardwar
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 
 * [Course Review](https://www.bencodezen.io/blog/review-css-grid-with-wes-bos/) by [@bencodezen](https://www.twitter.com/bencodezen)
+* [Recap and lessons learned](https://marcokuehbauch.com/blog/2018/learning-css-grid/) by [@mkuehb](https://twitter.com/Mkuehb)
 
 ## A note on Pull Requests
 
@@ -44,7 +45,7 @@ I recommend you use the files in the repo, but if you prefer to use JSFiddle ins
 11. [Spanning and Placing Cardio](https://jsfiddle.net/2z7z6o9k/)
 12. [auto-fit and auto-fill](https://jsfiddle.net/d1pLngzx/)
 13. [Using minmax() for Responsive Grids](https://jsfiddle.net/xthszm2j/)
-14. Grid Template Areas: 
+14. Grid Template Areas:
     - [Area Line Names](https://jsfiddle.net/tkyxomht/)
     - [Areas](https://jsfiddle.net/p0sn7L7v/)
 15. [Naming Lines in CSS Grid](https://jsfiddle.net/ygpmn0xh/)
@@ -53,7 +54,7 @@ I recommend you use the files in the repo, but if you prefer to use JSFiddle ins
 18. [Re-ordering Grid Items](https://jsfiddle.net/uscf9mk0/)
 19. [Nesting Grid with Album Layouts](https://jsfiddle.net/yn7jak0y/)
 20. [CSS Grid Image Gallery](https://jsfiddle.net/cbjzped2/)
-21. Flexbox vs CSS Grid: 
+21. Flexbox vs CSS Grid:
     - [Axis Flipping](https://jsfiddle.net/pt8hym9s/)
     - [Controls on Right](https://jsfiddle.net/4o7gavuj/)
     - [Flex on Item](https://jsfiddle.net/1u264ftd/)
