@@ -66,5 +66,5 @@ I recommend you use the files in the repo, but if you prefer to use JSFiddle ins
     - [Variable Widths on Each Row](https://jsfiddle.net/qymhootd/)
 22. [Recreating Codepen](https://jsfiddle.net/br6n54qt/)
 23. [Bootstrappy Grid with CSS Variables](https://jsfiddle.net/gLLht2hd/)
-24. [Responisve Website](https://jsfiddle.net/bh16ofp8/)
+24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
