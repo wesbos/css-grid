@@ -14,11 +14,12 @@
     <div class="item item2">2</div>
     <div class="item item3">3</div>
     <div class="item item4">4</div>
+    <div class="item dragon">🐲</div>
     <div class="item item5">5</div>
     <div class="item item6">6</div>
     <div class="item item7">7</div>
     <div class="item item8">8</div>
-    <div class="item item8">💩</div>
+    <div class="item poop">💩</div>
     <div class="item item9">9</div>
     <div class="item item10">10</div>
     <div class="item item11">11</div>
@@ -48,6 +49,20 @@
       display: grid;
       grid-gap: 20px;
       grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+    }
+
+
+    .poop {
+      /* grid-column: span 2; */
+      background: #0d355a;
+      grid-column: span 2;
+      grid-row: span 5;
+    }
+
+    .dragon {
+      background: #707020;
+      grid-row: span 10;
     }
   </style>
 </body>
