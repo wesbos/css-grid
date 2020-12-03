@@ -29,7 +29,8 @@ Make sure to turn off both "Use recommended performance settings" & "Use hardwar
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 
 * [Course Review](https://www.bencodezen.io/blog/review-css-grid-with-wes-bos/) by [@bencodezen](https://www.twitter.com/bencodezen)
-* [Recap and lessons learned](https://marcokuehbauch.com/blog/2018/learning-css-grid/) by [@mkuehb](https://twitter.com/Mkuehb)
+* [Recap and lessons learned](https://marcokuehbauch.com/blog/learning-css-grid/) by [@mkuehb](https://twitter.com/Mkuehb)
+* [cssgrid.io course review](https://krzysztofzuraw.com/blog/2020/css-grid-io-course) by [@krzysztof_zuraw](https://twitter.com/krzysztof_zuraw)
 * My [gh-page](https://herminiotorres.github.io/cssgrid) by [@herminiotorres](https://twitter.com/herminiotorres)
 
 ## A note on Pull Requests
