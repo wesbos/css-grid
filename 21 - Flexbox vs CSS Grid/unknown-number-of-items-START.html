@@ -13,7 +13,7 @@
   <script>
     function addItem() {
       const unknown = document.querySelector('.unknown');
-      unknown.innerHTML += `<div class="item">${unknown.childElementCount}</div>`;
+      unknown.innerHTML += `<div class="item">${++unknown.childElementCount}</div>`;
     }
   </script>
   <button onClick="addItem()">+ Add</button>
