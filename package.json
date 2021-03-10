@@ -13,6 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "run-script-os": "^1.1.3"
+    "run-script-os": "^1.1.5"
   }
 }
