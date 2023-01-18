@@ -18,7 +18,6 @@
       flipper.classList.toggle('flip');
     }
   </script>
-
   <button onClick="flip()">Flip It</button>
   <div class="flipper">
     <div class="item">1</div>
@@ -35,6 +34,15 @@
   </div>
 
   <style>
+   .flipper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    }
+
+    .flipper.flip {
+      grid-template-columns: 1fr;
+    } 
   </style>
 </body>
 
