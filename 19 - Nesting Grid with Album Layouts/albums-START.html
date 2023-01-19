@@ -109,6 +109,15 @@
       padding: 20px;
       display: grid;
       grid-template-columns: 150px, 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-gap: 20px;
+    }
+    .album {
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 150px 1fr;
       grid-gap: 10px;
       align-items: center;
       color: white;
@@ -116,6 +125,7 @@
     }
 
     .album_artwork {
+    .album__artwork {
       width: 100%;
     }
   </style>

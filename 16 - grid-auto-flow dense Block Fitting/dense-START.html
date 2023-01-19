@@ -89,7 +89,6 @@
       grid-template-columns: repeat(10, 1fr);
       grid-auto-flow: dense;
     }
-
     .item:nth-child(6n) {
       background: cornflowerblue;
       grid-column: span 6;
@@ -97,6 +96,7 @@
     .item:nth-child(8n) {
       background: tomato;
       grid-column: span 2;
+      grid-column: span-2;
     }
     .item:nth-child(9n) {
       grid-row: span 2;
@@ -104,6 +104,8 @@
     .item18 {
       background: greenyellow !important;
       grid-column-end: -1;
+      background: green !important;
+      grid-column-end: -1 !important;
     }
   </style>
 </body>

@@ -20,6 +20,7 @@
     <div class="itm itm8">8</div>
     <div class="itm itm9">9</div>
     <div class="itm itm10">10</div>
+
   </div>
 
   <style>
@@ -51,6 +52,15 @@
 
     }
 
+      border: 10px solid var(--yellow);
+      grid-template-columns: repeat(5, 130px);
+      /*grid-template-rows: repeat(5, 100px);*/
+      /*justify-items: center;
+      align-items: center;*/
+      place-items: stretch stretch;
+      justify-content: space-between;
+      align-content: space-between;
+    }
     .itm {
       background: white;
     }
