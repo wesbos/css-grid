@@ -11,8 +11,8 @@
 <body>
   <div class="flex-container">
     <div class="item">Short</div>
-    <div class="item">Longerrrrrrrrrrrrrr</div>
-    <div class="item">💩</div>
+    <div class="item">Longerr</div>
+    <div class="item">p</div>
     <div class="item">This is Many Words</div>
     <div class="item">Lorem, ipsum.</div>
     <div class="item">10</div>
@@ -21,9 +21,13 @@
     <div class="item">Short</div>
   </div>
   <style>
-    .flex-container {}
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
     .flex-container>* {
+      flex: 1;
       margin: 10px;
     }
   </style>
