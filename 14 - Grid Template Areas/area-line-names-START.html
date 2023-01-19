@@ -46,33 +46,15 @@
     .container {
       display: grid;
       grid-gap: 20px;
-      grid-template-columns:1fr 500px 1fr;
-      grid-template-rows:150px 150px 100px ;
       grid-template-areas:
-       "sidebar-1 content sidebar-2"
-       "sidebar-1 content sidebar-2"
-       "footer footer footer"
+      "poop poop poop poop burger burger burger burger" 
+      "poop poop poop poop burger burger burger burger"
+      "poop poop poop poop burger burger burger burger"
+      "poop poop poop poop burger burger burger burger"
     }
-    .footer {
-      grid-area: footer;
-    }
-    .item1 {
-      grid-area: sidebar-1;
-    }
-    .item2 {
-      grid-area: content;
-    }
-    .item3 {
-      grid-area: sidebar-2;
-    }
-    @media (max-width: 700px) {
-      .container {
-        grid-template-areas:
-       "content content content"
-       "sidebar-1 sidebar-1 sidebar-2"
-       "footer footer footer"
-      }
-    }
+     .item3 {
+      grid-column: poop-start/burger-end;
+      grid-row-end: poop-end;
 
   </style>
 </body>
