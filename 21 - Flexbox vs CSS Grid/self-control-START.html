@@ -23,16 +23,22 @@
       display: grid;
       height: 200px;
       width: 200px;
+      grid-template: 1fr 1fr / 1fr 1fr;
       border: 10px solid var(--yellow);
-
+      align-items: end;
+      justify-items: end;
     }
 
 
     .corner:nth-child(1),
-    .corner:nth-child(2) {}
+    .corner:nth-child(2) {
+      align-self: start;
+    }
 
     .corner:nth-child(1),
-    .corner:nth-child(3) {}
+    .corner:nth-child(3) {
+      justify-self: start;
+    }
   </style>
 </body>
 
