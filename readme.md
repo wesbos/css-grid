@@ -80,3 +80,8 @@ I recommend you use the files in the repo, but if you prefer to use JSFiddle ins
 23. [Bootstrappy Grid with CSS Variables](https://jsfiddle.net/gLLht2hd/)
 24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
+
+
+## 🙏 Support
+
+Don't forget to leave a star ⭐️
